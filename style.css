@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-image: linear-gradient(rgb(17, 108, 187), rgb(6, 183, 144));
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+    font-size: 16em;
+}
+
+#btn {
+    background-color: #0f0;
+    width: 10em;
+    height: 3em;
+    font-size: 30px;
+    border: none;
+    transition: box-shadow .48s;
+    border-radius: 20px ;
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 0px -10px 5px rgb(36, 22, 228);
+    
+}
